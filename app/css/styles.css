@@ -7,7 +7,7 @@
   max-width: 600px;
   margin: 40px auto;
   border-radius: 5px 5px;
-  box-shadow: 0 4px 10px 4px; }
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
 
 .conteneur > div:last-child {
   display: none; }
@@ -58,7 +58,7 @@ input, textarea {
   height: auto;
   border-radius: 50%;
   margin-top: -40px;
-  margin-left: 150px; }
+  margin-left: 200px; }
 
 .vatar1 {
   width: 100px; }
@@ -73,7 +73,7 @@ input, textarea {
 
 .card {
   padding: 20px 20px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+ box-shadow: 2px 2px;
   transition: 0.3s;
   background-color: #ffffff;
   position: relative;
@@ -184,7 +184,7 @@ body, html {
   align-items: center;
   justify-content: center;
   color: white;
-  text-shadow: 0 0 5px #000; }
+  text-shadow: 0 0 2px #000; }
 
 .parallax::after {
   content: " ";
@@ -198,13 +198,13 @@ body, html {
   z-index: -1; }
 
 .static {
-  background-image: url("../images/img1.jpg"); }
+  background-image: url("../images/im2.jpg"); }
 
 .bg1::after {
-  background-image: url("../images/img3.jpg"); }
+  background-image: url("../images/paral.jpg"); }
 
 .bg2::after {
-  background-image: url("../images/img4.jpg"); }
+  background-image: url("../images/parallax2.jpg"); }
 
 .test {
   text-align: justify;
@@ -214,3 +214,12 @@ body, html {
   color: #3c3f61;
   padding-top: 5%;
   color: 323369; }
+
+  .parallax {
+    background-image: url("../images/paral.jpg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
